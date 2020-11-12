@@ -1,6 +1,0 @@
-Advanced Custom Fields
-Contact Form 7
-Custom Post Type UI
-Elementor
-Elementor - Header, Footer & Blocks
-Essential Addons for Elementor
