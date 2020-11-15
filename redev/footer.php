@@ -37,20 +37,20 @@
 						<h4><?php echo get_theme_mod('reDev-footer-t1-title','Products')?></h4>
 						<hr>
 						<ul>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t0-under-link')?>"><?php echo get_theme_mod('reDev-footer-t0-under','Placeholder')?></a></li>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t1-under-link')?>"><?php echo get_theme_mod('reDev-footer-t1-under','Placeholder')?></a></li>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t2-under-link')?>"><?php echo get_theme_mod('reDev-footer-t2-under','Placeholder')?></a></li>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t3-under-link')?>"><?php echo get_theme_mod('reDev-footer-t3-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t0-under-link')?>"><?php echo get_theme_mod('reDev-footer-t0-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t1-under-link')?>"><?php echo get_theme_mod('reDev-footer-t1-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t2-under-link')?>"><?php echo get_theme_mod('reDev-footer-t2-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t3-under-link')?>"><?php echo get_theme_mod('reDev-footer-t3-under','Placeholder')?></a></li>
 						</ul>
 					</div>
 					<div class="footer-container">
 						<h4><?php echo get_theme_mod('reDev-footer-t2-title','Links')?></h4>
 						<hr>
 						<ul>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t4-under-link')?>"><?php echo get_theme_mod('reDev-footer-t4-under','Placeholder')?></a></li>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t5-under-link')?>"><?php echo get_theme_mod('reDev-footer-t5-under','Placeholder')?></a></li>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t6-under-link')?>"><?php echo get_theme_mod('reDev-footer-t6-under','Placeholder')?></a></li>
-							<li><a href="<?php echo get_theme_mod('reDev-footer-t7-under-link')?>"><?php echo get_theme_mod('reDev-footer-t7-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t4-under-link')?>"><?php echo get_theme_mod('reDev-footer-t4-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t5-under-link')?>"><?php echo get_theme_mod('reDev-footer-t5-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t6-under-link')?>"><?php echo get_theme_mod('reDev-footer-t6-under','Placeholder')?></a></li>
+							<li><a href="http://<?php echo get_theme_mod('reDev-footer-t7-under-link')?>"><?php echo get_theme_mod('reDev-footer-t7-under','Placeholder')?></a></li>
 						</ul>
 					</div>				
 					<div class="footer-container">
@@ -65,7 +65,7 @@
 					</div>
 				</div>
 		</div>
-		<div class="copyright-box"><p>copyright</p></div>
+		<div class="copyright-box"><p><?php echo get_theme_mod('reDev-copyright-text','copyright')?></p></div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

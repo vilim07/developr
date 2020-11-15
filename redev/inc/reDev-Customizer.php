@@ -39,11 +39,10 @@ class reDev_customizer{
         ));
 
         $wp_customize->add_setting('reDev-callout-text-0',array(
-            'default' =>'reDev Placeholder',
+            'default' =>'',
         ));
 
         $wp_customize->add_setting('reDev-callout-text-1',array(
-            'default' =>'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         ));
 
         $wp_customize->add_setting('reDev-left-button-callout-text',array(
@@ -92,6 +91,11 @@ class reDev_customizer{
             'default' =>'reDev Placeholder',
           ) 
         );
+        $wp_customize->add_setting('reDev-thumb-img-'.$i,array(
+            'default' =>'',
+            'type'=>'theme_mod',
+            'capability'=>'edit_theme_options',
+        ));
         }
 
         $wp_customize->add_setting('reDev-mid-callout-picture',array(
@@ -139,6 +143,25 @@ class reDev_customizer{
                   ) 
         );
     }
+
+    $wp_customize->add_setting('reDev-copyright-text',array(
+        'default' =>'',
+    ));
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -263,6 +286,15 @@ class reDev_customizer{
                 'settings'=>'reDev-thumb-title-section-'.$i,
                 'type'=>'text'
             )));
+            $wp_customize->add_control(new WP_Customize_Cropped_Image_Control($wp_customize,'reDev-thumb-img-setting-'.$i, array(
+                'label'=>'Image for thumb '.$i,
+                'section'=>'reDev-callout-section',
+                'settings'=>'reDev-thumb-img-'.$i,
+                'flex_width'  => true, 
+                'flex_height' => true, 
+                'width'       => 32,
+                'height'      => 32,
+            )));
         }
 
         $wp_customize->add_control(new WP_Customize_Cropped_Image_Control($wp_customize,'reDev-as-callout-picture-control', array(
@@ -322,6 +354,15 @@ class reDev_customizer{
                 'type'=>'text'
             )));}
           }
+
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'reDev-copyright-text-control',array(
+            'label'=>'Footer bottom copyright ',
+            'section'=>'reDev-footer-section',
+            'settings'=>'reDev-copyright-text',
+            'type'=>'text'
+        )));
+
+
 
 
 

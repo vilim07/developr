@@ -1176,7 +1176,7 @@ textarea {
 }
 .af-top{
 	text-align: center;
-	margin: 0 100px;
+	margin: 50px 100px;
 }
 .af-top h1{
 	margin: 0;
@@ -1193,9 +1193,17 @@ textarea {
 	font-weight: 900;
 	margin: 0;
 }
-.af-bot i{
+.thumb-image-slot{
+	display: block;
 	margin-top: 8px;
 	margin-right: 20px;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+}
+.thumb-image{
+	width: 32px !important;
+	height: 32px !important;
 }
 .af-ul{
 	flex: 1;
@@ -1204,6 +1212,7 @@ textarea {
 .af-ul li{
 	display: flex;
 	margin-bottom: 20px;
+	height: 150px;
 }
 .af-ul ul{
 	list-style-type: none;
@@ -1213,10 +1222,8 @@ textarea {
 .af-ul h3{
 	margin-top: 0;
 }
-.af-ul i{
-	padding: 0 10px;
-	font-size: 2rem;
-}
+
+
 .af-img{
 	flex: 1;
 	margin: 0 25px;
@@ -1295,7 +1302,7 @@ textarea {
 .mobile-menu-shell{
 	display: none;
 	padding-bottom: 10px;
-	transition: 1.5s ease-out;
+	transition: 0.7s ease-in-out;
 	transition-delay: 0;
 	max-height: 0;
 }
@@ -1325,6 +1332,7 @@ textarea {
 	font-size: 1.5rem;
 	padding: 5px;
 }
+
 @media (max-width: 1200px){
 	.container{
 		max-width: 960px;
@@ -1367,11 +1375,8 @@ textarea {
 	.af-bot{
 		flex-direction: column;
 	}
-	.af-bot i{
-		margin-right: 50px;
-	}
-	.af-bot img{
-		padding-bottom: 40px;
+	.af-img{
+		margin-bottom:15px;
 	}
 }
 @media (max-width: 760px){

@@ -43,23 +43,32 @@ get_header();
 						<div class="af-ul">
 							<ul>
 								<li>
-									<i class="far fa-thumbs-up"></i>
+									<img src="<?php if ( get_theme_mod( 'reDev-thumb-img-0' ) > 0 ) {
+        echo wp_get_attachment_url( get_theme_mod( 'reDev-thumb-img-0' ) );
+    } else {
+        echo get_template_directory_uri() . '/img/hash.svg';}?>" class="thumb-image-slot">
 									<div>
-										<h3><?php echo get_theme_mod('reDev-thumb-title-section-0','Placeholder')?></h3>
+										<h3><?php echo get_theme_mod('reDev-thumb-title-section-0','Thumb text')?></h3>
 										<p><?php echo get_theme_mod('reDev-thumb-text-section-0','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.');?></p>
 									</div>
 								</li>
 								<li>
-									<i class="far fa-thumbs-up"></i>
+								<img src="<?php if ( get_theme_mod( 'reDev-thumb-img-1' ) > 0 ) {
+        echo wp_get_attachment_url( get_theme_mod( 'reDev-thumb-img-1' ) );
+    } else {
+        echo get_template_directory_uri() . '/img/hash.svg';}?>" class="thumb-image-slot">
 									<div>
-										<h3><?php echo get_theme_mod('reDev-thumb-title-section-1','Placeholder')?></h3>
+										<h3><?php echo get_theme_mod('reDev-thumb-title-section-1','Thumb text')?></h3>
 										<p><?php echo get_theme_mod('reDev-thumb-text-section-1','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.');?></p>
 									</div>
 								</li>
 								<li>
-									<i class="far fa-thumbs-up"></i>
+								<img src="<?php if ( get_theme_mod( 'reDev-thumb-img-2' ) > 0 ) {
+        echo wp_get_attachment_url( get_theme_mod( 'reDev-thumb-img-2' ) );
+    } else {
+        echo get_template_directory_uri() . '/img/hash.svg';}?>" class="thumb-image-slot">
 									<div>
-										<h3><?php echo get_theme_mod('reDev-thumb-title-section-2','Placeholder')?></h3>
+										<h3><?php echo get_theme_mod('reDev-thumb-title-section-2','Thumb text')?></h3>
 										<p><?php echo get_theme_mod('reDev-thumb-text-section-2','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.');?></p>
 									</div>
 								</li>
@@ -72,23 +81,32 @@ get_header();
 						<div class="af-ul">
 						<ul>
 								<li>
-									<i class="far fa-thumbs-up"></i>
+								<img src="<?php if ( get_theme_mod( 'reDev-thumb-img-3' ) > 0 ) {
+        echo wp_get_attachment_url( get_theme_mod( 'reDev-thumb-img-3' ) );
+    } else {
+        echo get_template_directory_uri() . '/img/hash.svg';}?>" class="thumb-image-slot">
 									<div>
-										<h3><?php echo get_theme_mod('reDev-thumb-title-section-3','Placeholder')?></h3>
+										<h3><?php echo get_theme_mod('reDev-thumb-title-section-3','Thumb text')?></h3>
 										<p><?php echo get_theme_mod('reDev-thumb-text-section-3','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.');?></p>
 									</div>
 								</li>
 								<li>
-									<i class="far fa-thumbs-up"></i>
+								<img src="<?php if ( get_theme_mod( 'reDev-thumb-img-4' ) > 0 ) {
+        echo wp_get_attachment_url( get_theme_mod( 'reDev-thumb-img-4' ) );
+    } else {
+        echo get_template_directory_uri() . '/img/hash.svg';}?>" class="thumb-image-slot">
 									<div>
-										<h3><?php echo get_theme_mod('reDev-thumb-title-section-4','Placeholder')?></h3>
+										<h3><?php echo get_theme_mod('reDev-thumb-title-section-4','Thumb text')?></h3>
 										<p><?php echo get_theme_mod('reDev-thumb-text-section-4','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.');?></p>
 									</div>
 								</li>
 								<li>
-									<i class="far fa-thumbs-up"></i>
+								<img src="<?php if ( get_theme_mod( 'reDev-thumb-img-5' ) > 0 ) {
+        echo wp_get_attachment_url( get_theme_mod( 'reDev-thumb-img-5' ) );
+    } else {
+        echo get_template_directory_uri() . '/img/hash.svg';}?>" class="thumb-image-slot">
 									<div>
-										<h3><?php echo get_theme_mod('reDev-thumb-title-section-5','Placeholder')?></h3>
+										<h3><?php echo get_theme_mod('reDev-thumb-title-section-5','Thumb text')?></h3>
 										<p><?php echo get_theme_mod('reDev-thumb-text-section-5','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.');?></p>
 									</div>
 								</li>
